@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  font-family: "Roboto";
+  background-color: #f2f5f7;
+}
+
+#headerTopNavContainer {
+  max-width: 1600px;
+  width: 100%;
+  background-color: rgb(9, 34, 50);
+  box-shadow: 0px -3px 40px 0px rgba(10, 46, 59, 0.7);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0px 35px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 200px;
+  padding-right: 94px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+#logo img {
+  width: 24px;
+  height: 21px;
+}
+
+#topNav {
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.menuTop {
+  width: 365px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.menuTop a {
+  line-height: 70px;
+  font-size: 14px;
+  color: #c0cfd2;
+  padding-bottom: 22px;
+  transition: 0.5s;
+}
+.menuTop a:hover {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.buttonWraper {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#buttonSignUp {
+  width: 107px;
+  height: 48px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(57, 138, 154);
+  border-radius: 5px;
+  background-color: rgba(56, 117, 129, 0);
+  color: #ffffff;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+#buttonSignIn {
+  width: 96px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: rgb(56, 117, 129);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  line-height: 48px;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+.mainContainer {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.homeBlock {
+  width: 100%;
+  font-size: 14px;
+  margin: 38px 0;
+}
+.h1Block {
+  font-size: 24px;
+  color: #092332;
+  font-weight: 600;
+}
+#textInfoVideoBlock {
+  margin: 31px 0px;
+  font-size: 14px;
+}
+#galleryAndPriceFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.priceBlock {
+  width: 350px;
+  height: 144px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 0px rgba(19, 36, 47, 0.3);
+  padding: 29px 22px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.priceBuyButton {
+  border-radius: 5px;
+  background-color: rgb(228, 43, 111);
+  box-shadow: 0px 4px 20px 0px rgba(198, 0, 72, 0.5);
+  width: 203px;
+  height: 44px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 44px;
+  margin-top: 10px;
+}
+.flexSpaceBetWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#transferring {
+  padding: 22px;
+  border-bottom: 2px solid #c8cacc;
+  font-size: 16px;
+  font-weight: 300;
+}
+.bigNumber {
+  font-size: 24px;
+  color: #398a9a;
+  font-weight: bold;
+  padding-top: 18px;
+}
+#transferring a {
+  padding-top: 25px;
+  color: #4c808b;
+  border-bottom: 2px solid #3cbcd4;
+  font-size: 13px;
+}
+#numberAuto {
+  padding: 18px 0;
+  border-bottom: 2px solid #c8cacc;
+  font-size: 18px;
+}
+.pGrey {
+  color: #767c85;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+#timeBlock {
+  padding: 18px 0;
+  border-bottom: 2px solid #c8cacc;
+  font-size: 18px;
+}
+#priceofIncident {
+  padding: 18px 0;
+  font-size: 18px;
+}
+#googlemap {
+  box-shadow: 0px 5px 15px 0px rgba(19, 36, 47, 0.3);
+}
+
+#buttonFixed {
+  background-color: rgb(57, 138, 154);
+  box-shadow: 0px 3px 20px 0px rgba(0, 106, 177, 0.6);
+  position: fixed;
+  right: 0;
+  top: 294px;
+  width: 52px;
+  height: 183px;
+}
+#textButFixed {
+  left: -22px;
+  bottom: -70px;
+  width: 93px;
+}
+
+#buttonFixed p {
+  transform: rotate(-90deg);
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#ellipse {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(214, 223, 230, 0);
+  position: absolute;
+  left: 10px;
+  top: 138px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+#questionIcon {
+  position: relative;
+  left: 1px;
+  bottom: 6px;
+}
+.notes {
+  max-width: 730px;
+}
+.h2Notes {
+  padding: 20px 0;
+}
+.notesBlockTopButton {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #bbd1d5;
+  padding: 20px;
+}
+.notesBlock {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(19, 36, 47, 0.2);
+  width: 730px;
+}
+.notesButtonLeft {
+  display: flex;
+  line-height: 40px;
+}
+
+.ButtonNotes {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 0px rgba(19, 36, 47, 0.3);
+  /* position: absolute;
+  right: 100px;
+  bottom: 100px; */
+  width: 43px;
+  height: 40px;
+  padding: 5px 13px;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+.ButtonNotes img {
+  width: 16px;
+  height: 16px;
+}
+.ButtonNotes:hover {
+  background-color: #398a9a;
+}
+.notesBlockText {
+  padding: 20px;
+  text-align: justify;
+}
+
+.notesButtonRight {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 20px 0px rgba(0, 106, 177, 0.6);
+  background-color: #398a9a;
+  width: 31px;
+  height: 31px;
+  padding: 6px 10px;
+}
+
+.notesBlockTopButtonСlose {
+  width: 190px;
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+}
